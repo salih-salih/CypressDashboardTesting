@@ -1,0 +1,17 @@
+{
+  "name": "demo_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run -b chrome --headless --spec 'cypress/integration/Day1/checkboxes.spec.js'",
+    "test1": "cypress run -b chrome --headless --spec 'cypress/integration/Day1'",
+    "test2": "cypress run -b chrome --headless --spec 'cypress/integration/2-advanced-examples'"
+  },
+  "author": "salih",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
